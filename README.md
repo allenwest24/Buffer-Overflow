@@ -1,7 +1,7 @@
 # Buffer-Overflow
 Buffer Overflow of a vulnerable program that doesn;t properly manage its buffer.
 
-Introduction
+# Introduction
 A buffer overflow occurs when a program or process tries to store more data in a buffer (or some temporary data storage area)
 than that buffer was intended to hold. This extra data, which has to go somewhere, then overflows adjacent memory regions,
 corrupting or overwriting the valid data stored there. If the buffer is stored on the stack, as it is the case for local
@@ -13,7 +13,7 @@ data is checked before copied into buffers of fixed lengths. Unfortunately, a nu
 strcat, sprintf, gets, or fgets) do not perform such length checks, making many applications vulnerable to this kind of attack.
 
 
-Storyline
+# Storyline
 
 After the stunt that you pulled off during the last penetration testing job, your image in the company has improved 
 considerably. You are not the "newbie" anymore and your colleagues look at you with respect. Hey, someone even offered some of
@@ -30,6 +30,6 @@ find three programs that apparently use unsafe C string operations, probably wri
 Why they are suid root remains a secret, though ... :-) The rest, as they say, is computer science history...
 
 
-Detailed Description
+# Detailed Description
 Your task is to exploit stack buffer overflow vulnerabilities in three programs that have their set-guid (i.e. set group 
 identification) bit enabled. The programs are installed under /usr/local/bin/prog[5-7]. 
