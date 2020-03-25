@@ -1,3 +1,10 @@
 Strategy:  
 
-The way I went about exploiting this buffer overflow vulnerability was to first look at the source code of the program I was trying to attack. I found the buffer size in the source code and then used GDB as a debugger to dissassemble th program in to assembly. Once in assembly, I put a breakpoint before ret was called so I could walk through what was happening in the program. To help me do this, I used python code to write the number of A's that the buffer could fit and see exactly where they were being placed. I then switched them out for no operation bytes to create a nop sled. Using a nop sled allows you to have a bigger area that you can try to inject your shellcode during execution because they just push whatever you're ding to the right, or the return. After this, I ran the program with the python injection of nopsleds and a shellcode at the end. Once the program executed this, it spawned a shell and I could call /bin/grade that had guid enabled to get the hash I was trying to get.
+The way I went about exploiting this buffer overflow vulnerability was to first look at the source code of the program I was trying to
+attack. I found the buffer size in the source code and then used GDB as a debugger to dissassemble th program in to assembly. Once in 
+assembly, I put a breakpoint before ret was called so I could walk through what was happening in the program. To help me do this, I used 
+python code to write the number of A's that the buffer could fit and see exactly where they were being placed. I then switched them out 
+for no operation bytes to create a nop sled. Using a nop sled allows you to have a bigger area that you can try to inject your shellcode
+during execution because they just push whatever you're ding to the right, or the return. After this, I ran the program with the python
+injection of nopsleds and a shellcode at the end. Once the program executed this, it spawned a shell and I could call /bin/grade that
+had guid enabled to get the hash I was trying to get.
